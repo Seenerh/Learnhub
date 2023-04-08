@@ -1,0 +1,216 @@
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+p,
+ul {
+    margin: 0;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* Utility Styles */
+.container {
+    width: 90%;
+    margin-inline-end: 10rem;
+}
+
+/* Header Styles */
+.header{
+    margin-inline: 2rem;
+    padding-block: 2rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 100px;
+    height: 15px;
+}
+
+nav .nav_links ul{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav_links ul li{
+    list-style: none;
+    margin-inline-end: 2rem;
+}
+
+nav .nav_links ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav a button{
+    padding: 0.5rem 2rem;
+    border: none;
+    background: #911DED;
+    border-radius: 8px;
+}
+
+nav a button:hover{
+    background-color: #c58ff1;
+}
+
+nav a button{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: default;
+}
+
+/* Main Styles */
+.container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .details{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    margin-inline-start: 2rem;
+}
+
+.container .details p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 7px;
+    color: #444343;
+}
+
+.container .details h1{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 50px;
+    color: #444343;
+}
+
+.container .details h1 span{
+    padding: 0rem 0.8rem;
+    background: #C281F4;
+    border-radius: 6.3203px;
+    line-height: 80px;
+    color: #D9DAFF;
+}
+
+.container .details h1 span.box{
+    margin-top: -91rem;
+}
+
+.container .details a button{
+    margin-block-start: 1.7rem;
+    padding: 0.5rem 2.2rem;
+    border: none;
+    background: #911DED;
+    border-radius: 8px;
+}
+
+.container .details a button:hover{
+    background-color: #c58ff1;
+}
+
+.container .details a button{
+    font-size: 1rem;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.container .details a{
+    width: 120px;
+}
+
+.container .details ul{
+    margin-block-start: 0.8rem;
+    margin-inline-start: -2.5rem;
+    display: flex;
+}
+
+.container .details ul li{
+    list-style: none;
+    margin-inline-end: -0.9rem;
+}
+
+.container .details ul li img{
+    width: 30px;
+    height: 30px;
+}
+
+.container .details ul p{
+    margin-top: 0.8rem;
+    margin-inline-start: 1.2rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+
+}
+
+.details ul p span{
+    color: #911DED;
+}
+
+.container img{
+    width: 350px;
+    height: 350px;
+}
+
+/* Footer Styles */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block-start: 5rem;
+}
+
+.remarks{
+    display: flex;
+}
+
+.remarks img{
+    width: 50px;
+    height: 50px;
+}
+
+.remarks img.big{
+    width: 57px;
+    height: 50px;
+}
+
+.remarks .text{
+    margin-inline-start: 0.8rem;
+}
+
+.remarks .text p.head{
+    color: #911DED;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.remarks .text p{
+    color: #444343;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
