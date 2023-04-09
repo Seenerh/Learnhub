@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    
+    <!-- Google Fonts -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800&family=Nunito:wght@500;600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/signup.css">
+</head>
+<body>
+    <main class="container">
+        <div class="about">
+            <h2>Remote<br>learning made<br>easy and fun.</h2>
+            <h5>Start testing in minutes !</h5>
+            <p>Already have an account? <a href="login.html">Log in</a></p>
+            <div class="social_icons">
+                <a href="instagram.com"><img src="images/Instagram.png" alt=""></a>
+                <a href="twitter.com"><img src="images/Twitter.png" alt=""></a>
+                <a href="google.com"><img src="images/Google.png" alt=""></a>
+            </div>
+        </div>
+        <div class="forms">
+            <div class="google">    
+                <a><img src="images/GoogleLogos.png" alt=""></a>
+                <p>Sign up with google</p>
+            </div>
+            <p>or</p>
+            <form action="">
+                <div class="name">
+                    <div class="name first">
+                        <label for="firstname">First name</label><br>
+                        <input type="text" id="firstname" required>
+                    </div>
+                    <div class="name last">
+                        <label for="lastname">Last name</label><br>
+                        <input type="text" id="lastname" required>
+                    </div>
+                </div>
+                <label for="email">Email</label>
+                <input class="in" type="email" id="email" required>
+                <label for="password">Password</label>
+                <input class="in" type="password" id="password" required>
+                <div><input type="checkbox">I agree to the <a href="">Terms of Service</a> and <a href="">Privacy Notice</a></input></div>
+                <button type="submit">Sign me up</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,184 @@
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+p,
+ul {
+    margin: 0;
+}
+
+/* Base Styles */
+body {
+    background: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/images/bg-pattern-left-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 27%;
+    background-position: left 0% top 0%;
+}
+
+/* Utility Styles */
+.container {
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+    max-width: 1700px;
+}
+
+/* Main Styles */
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .about{
+    width: 50%;
+    height: 100%;
+    padding-block: 2rem;
+    margin-inline-start: 5rem;
+}
+
+.about h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #ffffff;
+}
+
+.about h5{
+    margin-block-start: 6.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 44px;
+    color: #000000;
+}
+
+.about p{
+    margin-block-end: 3rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 33px;
+    color: #000000;
+}
+
+.about .social_icons img{
+    width: 25px;
+    height: 25px;
+}
+
+.container .forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-block: 2rem;
+    margin-inline-end: 5rem;
+}
+
+.forms .google{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #CFCFCF;
+    border: 2px solid #868091;
+    border-radius: 7px;
+    margin-block-end: 2rem;
+}
+
+.forms .google a img{
+    width: 31px;
+    height: 31px;
+}
+
+.forms .google p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.forms p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.forms form{
+    display: flex;
+    flex-direction: column;
+    margin-block-end: 3.5rem;
+    margin-block-start: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+.forms form .name{
+    display: flex;
+}
+
+.forms form .name .first, .name .last{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form .name input{
+    background: #CFCFCF;
+    border: 0.7px solid #868091;
+    border-radius: 4px;
+    width: 300px;
+    height: 45px;
+}
+
+form label{
+    margin-block: 1rem;
+}
+
+form input.in{
+    background: #CFCFCF;
+    border: 0.7px solid #868091;
+    border-radius: 4px;
+    height: 45px;
+}
+
+.name .first{
+    margin-inline-end: 2rem;
+}
+
+.name .last{
+    margin-inline-start: 2rem;    
+}
+
+form input[type="checkbox"] {
+    margin-inline-end: 1rem;
+}
+
+form button{
+    margin-block-start: 2rem;
+    background: #911DED;
+    border-radius: 7px;
+    border: none;
+    font-family: 'Inter' sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #ffffff;
+    width: 664px;
+    height: 45px;
+}
+
+a{
+    color: #2424e6;
+}
