@@ -179,6 +179,11 @@ form button{
     height: 45px;
 }
 
+form button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 a{
     color: #2424e6;
 }

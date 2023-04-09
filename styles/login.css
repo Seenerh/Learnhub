@@ -110,7 +110,7 @@ body {
     justify-content: space-between;
 }
 
-.sumit a button{
+.sumit button{
     text-decoration: none;
     border: none;
     padding: 0.5rem 2rem;
@@ -118,6 +118,10 @@ body {
     font-size: 1.5rem;
     background-color: #911DED;
     border-radius: 44rem;
+    color: #ffffff;
+}
+
+.sumit button a{
     color: #ffffff;
 }
 
