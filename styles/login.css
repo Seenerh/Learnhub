@@ -121,6 +121,9 @@ body {
     color: #ffffff;
 }
 
-.sumit a button.create{
+.sumit a.create{
     background-color: #000000;
+    border-radius: 44rem;
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
 }
