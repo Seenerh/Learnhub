@@ -171,7 +171,7 @@ form button{
     background: #911DED;
     border-radius: 7px;
     border: none;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
     color: #ffffff;

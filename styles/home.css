@@ -45,7 +45,7 @@ body {
 /* Aside Styles */
 aside{
     width: 31%;
-    height: 155%;
+    height: 195%;
     background: #911DED;
     padding-block: 2rem;
 }
@@ -70,13 +70,13 @@ aside .greet{
 }
 
 .hi p{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.25rem;
 }
 
 .hi p.user_name{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 3.75rem;
@@ -90,7 +90,7 @@ aside .op{
 aside h4{
     margin-block-start: 4rem;
     padding-inline: 3rem;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.13rem;
     color: #ffffff;
@@ -107,7 +107,7 @@ aside a .time{
 .time .head{
     display: flex;
     justify-content: space-between;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1.13rem;
@@ -122,14 +122,14 @@ aside a .time{
 }
 
 .time h1{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     color: #1F1F39;
 }
 
 .time h1 span{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.63rem;
     color: #858597;
@@ -167,7 +167,7 @@ aside .course .topic.blue{
 }
 
 .topic h2{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -176,7 +176,7 @@ aside .course .topic.blue{
 
 .topic p{
     padding-block-start: 0.5rem;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1.12rem;
@@ -190,7 +190,7 @@ aside .course .topic.blue{
 }
 
 .play h1{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.87rem;
@@ -224,7 +224,7 @@ aside a .design{
 }
 
 .package p{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.88rem;
     line-height: 1.31rem;
@@ -236,7 +236,7 @@ aside a .design{
 }
 
 span.span p{
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 0.88rem;
     line-height: 1.3rem;
@@ -272,12 +272,31 @@ nav form input{
     border-radius: 10px;
     width: 580px;
     height: 40px;
+    padding-inline-start: 3rem;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: -0.02em;
+    color: #9F8888;
+}
+
+nav h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    color: #444343;
 }
 
 article ul{
     margin-block: 1.3rem;
     display: flex;
     list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    color: #444343;
 }
 
 article ul li{
@@ -298,16 +317,82 @@ ul li a button{
 }
 
 article .content{
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+}
+
+.content .itemss{
+    display: flex;
+    align-items: center;
+    background: #D6D2D2;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.content .itemss:nth-child(2n){
+    margin-inline-start: 2rem;
+}
+
+.itemss .course_section{
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 2rem;
+}
+
+.course_section h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1.43rem;
+    color: #1F1F39;
+}
+
+.course_section .name{
+    display: flex;
+}
+
+.name p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.81rem;
+    line-height: 1.18rem;
+    color: #B8B8D2;
+    padding-inline-start: 1rem;
+}
+
+.course_section .price{
+    display: flex;
+    align-items: center;
+}
+
+.price h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.08rem;
+    line-height: 1.625rem;
+    color: #3D5CFF;
+}
+
+.price h4{
+    background: #FFEBF0;
+    padding: 0.2rem 0.7rem;
+    border-radius: 10px;
+    margin-inline-start: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.675rem;
+    line-height: 1rem;
+    color: #FF6905;
 }
 
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 1490px) {
     aside{
-        height: 110%;
+        height: 135%;
     }
     article{
-        height: 110%;
+        height: 135%;
     }
 }
