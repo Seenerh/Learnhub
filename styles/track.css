@@ -1,0 +1,115 @@
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+p,
+ul {
+    margin: 0;
+}
+
+/* Base Styles */
+body {
+    height: 100vh;
+    width: 98vw;
+}
+
+/* Utility Styles */
+.container {
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+    max-width: 1700px;
+}
+
+.sr-only{
+    display: none;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+}
+
+/* Header Styles */
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-inline-end: 2rem;
+    margin-block: 2rem;
+}
+
+/* Main Styles */
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #444343;
+}
+
+ .navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin-block-end: 2rem;
+}
+
+.navbar ul{
+    margin-block-start: 0.7rem;
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 113.52%;
+    color: #444343;
+    text-decoration: none;
+    margin-inline-start: 1.5rem;
+}
+
+article{
+    margin-inline-start: 2rem;
+    width: 70%;
+    height: 100%;
+}
+
+article img{
+    width: 90%;
+}
+
+aside{
+    width: 30%;
+    height: 90%;
+    padding-inline-start: 6rem;
+}
+
+aside .img img{
+    width: 250px;
+    height: 60%;
+}
+
+.img2{
+    padding-top: 2rem;
+}
+
+.img2 img{
+    width: 250px;
+    height: 40%;
+}

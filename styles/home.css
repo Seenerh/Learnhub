@@ -50,6 +50,10 @@ aside{
     padding-block: 2rem;
 }
 
+aside a{
+    text-decoration: none;
+}
+
 aside .greet{
     display: flex;
     align-items: center;
