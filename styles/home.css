@@ -37,7 +37,7 @@ body {
 /* Main Styles */
 .container{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
     height: 100%;
 }
@@ -253,10 +253,61 @@ span.span p{
     height: 150px;
 }
 
+/* Article Styles */
+article{
+    width: 69%;
+    height: 155%;
+    padding-block: 4rem;
+    margin-inline: 2rem;
+}
+
+article nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav form input{
+    border: none;
+    background: #F0EAEA;
+    border-radius: 10px;
+    width: 580px;
+    height: 40px;
+}
+
+article ul{
+    margin-block: 1.3rem;
+    display: flex;
+    list-style: none;
+}
+
+article ul li{
+    margin-inline-end: 4rem;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li a button{
+    color: #ffffff;
+    width: 90px;
+    height: 27px;
+    border: none;
+    background: #911DED;
+    border-radius: 5px;
+}
+
+article .content{
+    
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 1490px) {
     aside{
+        height: 110%;
+    }
+    article{
         height: 110%;
     }
 }
