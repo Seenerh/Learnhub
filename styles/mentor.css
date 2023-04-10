@@ -276,6 +276,7 @@ nav p{
 article .navbar{
     display: flex;
     justify-content: flex-end;
+    margin-block-end: 2rem;
 }
 
 .navbar ul{
