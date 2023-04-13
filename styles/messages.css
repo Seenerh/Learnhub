@@ -1,0 +1,704 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+p,
+ul {
+    margin: 0;
+}
+.learnedTodayLine{
+    display: flex;
+}
+#whitePart{
+    margin-top: 3px;
+    height: 4px;
+    width: 100px;
+    background-color:#F4F3FD ;
+}
+#timeout{
+    margin-top: 3px;
+    height: 4px;
+    width: 150px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FF5106 101.2%);
+}
+/* Base Styles */
+body {
+    height: 100vh;
+    width: 98vw;
+}
+#entireBody{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+ #forNav{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+  font-size: 35px;
+  color: #1F1F39;
+
+}
+.accountDetails a{
+  color: #1F1F39;
+  text-decoration: none;
+}
+.accountDetails{
+  margin-left: 100px;
+  font-size: 20px;
+  display: flex;
+}
+.accountDetails h3{
+  width: 400px;
+}
+#eyeofhorus{
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+#hm{
+  margin-left: 30%;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #000000;
+}
+#centerImage{
+  display: block;
+  margin-left: 350px;
+  width: 20%;
+  margin-bottom: 10px;
+}
+nav{
+  padding: 20px;
+  display: flex;
+  width: 100%;
+}
+nav a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+text-decoration: none;
+margin-right: 30px;
+color: #444343;;
+margin-top: 10px;
+}
+CSS Styles
+/* Base Styles */
+body {
+    height: 100vh;
+    width: 98vw;
+}
+
+/* Utility Styles */
+.container {
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+    max-width: 1700px;
+}
+
+.sr-only{
+    display: none;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+}
+
+/* Main Styles */
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 100%;
+}
+
+/* Aside Styles */
+aside{
+  width: 31%;
+  height: 155%;
+  background: #911DED;
+  padding-block: 2rem;
+}
+
+aside .greet{
+  display: flex;
+  align-items: center;
+  margin-inline: 2rem;
+  padding-block-end: 2rem;
+}
+
+.greet img{
+  width: 75px;
+  height: 90px;
+}
+
+.greet .hi{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  margin-inline-start: 4rem;
+}
+
+.hi p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.hi p.user_name{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+}
+
+aside .op{
+  border-bottom: 10px solid #000000;
+  opacity: 0.18;
+}
+
+aside h4{
+  margin-block-start: 4rem;
+  padding-inline: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.13rem;
+  color: #ffffff;
+}
+
+aside a .time{
+  background: #EFE0FF;
+  border-radius: 10px;
+  margin-inline: 2rem;
+  padding: 1rem;
+  height: 87px;
+}
+
+.time .head{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.13rem;
+}
+
+.head p{
+  color: #858597;
+}
+
+.head p.purple{
+  color: #911DED;
+}
+
+.time h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #1F1F39;
+}
+
+.time h1 span{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.63rem;
+  color: #858597;
+  padding-inline-start: 0.6rem;
+  /* text-align: center; */
+}
+
+.time img{
+  width: 100%;
+}
+
+aside .course{
+  display: flex;
+  align-items: center;
+}
+
+aside .course .topic{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-block-start: 2rem;
+  border-radius: 15px;
+  padding-inline: 1rem;
+  padding-block-end: 0.5rem;
+}
+
+aside .course .topic.red{
+  background: #FFE7EE;
+  margin-inline-start: 2rem;
+}
+
+aside .course .topic.blue{
+  margin-inline: 1rem;
+  background: #BAD6FF;
+}
+
+.topic h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #1F1F39;
+}
+
+.topic p{
+  padding-block-start: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.12rem;
+  color: #1F1F39;
+}
+
+.topic .play{
+  display: flex;
+  align-items: flex-start ;
+  justify-content: space-between;
+}
+
+.play h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.87rem;
+  color: #1F1F39;
+}
+
+aside a .design{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #EFE0FF;
+  border-radius: 10px;
+  margin-inline: 2rem;
+  padding: 1rem;
+  padding-block: 2rem;
+  height: 87px;
+}
+
+.design .package{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.package.one{
+  padding-block-end: 1rem;
+}
+
+.package span.span{
+  display: flex;
+}
+
+.package p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.88rem;
+  line-height: 1.31rem;
+  color: #1F1F39;
+}
+
+.package p span{
+  color: #b8b8d2;
+}
+
+span.span p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 0.88rem;
+  line-height: 1.3rem;
+  padding-inline-start: 0.5rem;
+  color: #1F1F39;
+}
+
+.meet{
+  margin-inline: 1rem;
+}
+
+.meet img{
+  width: 375px;
+  height: 150px;
+}
+.secondHeading{
+    font-size: 30px;
+    margin-left: 100px;
+   color:  #1F1F39;
+   font-weight: 500;
+}
+#message{
+    margin-left: 250px;
+}
+#productLine{
+    margin-top: 3px;
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(270deg, #EC7B9C 50%, rgba(236, 123, 156, 0.502) 95.7%);
+}
+#javaDevelopment{
+    margin-top: 3px;
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(270deg, #3D5CFF 50%, rgba(61, 92, 255, 0.502) 100%);
+}
+#whiteParte{
+    margin-top: 3px;
+    height: 4px;
+    width: 70px;
+    background-color:#F4F3FD ;
+}
+
+#lineUnder{
+  margin-top: 0px;
+  margin-left: 280px;
+  height: 2px;
+  width: 80px;
+  background-color: #911DED;
+}
+.learnedTodayLine{
+  display: flex;
+}
+#whitePart{
+  margin-top: 3px;
+  height: 4px;
+  width: 100px;
+  background-color:#F4F3FD ;
+}
+#timeout{
+  margin-top: 3px;
+  height: 4px;
+  width: 150px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FF5106 101.2%);
+}
+#message{
+  margin-left: 250px;
+}
+#productLine{
+  margin-top: 3px;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(270deg, #EC7B9C 50%, rgba(236, 123, 156, 0.502) 95.7%);
+}
+#javaDevelopment{
+  margin-top: 3px;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(270deg, #3D5CFF 50%, rgba(61, 92, 255, 0.502) 100%);
+}
+#online{
+ color:  #858597;
+ font-weight: 700;
+}
+#messageText{
+  color: #858597;
+  font-weight: 400;
+}
+#whiteParte{
+  margin-top: 3px;
+  height: 4px;
+  width: 70px;
+  background-color:#F4F3FD ;
+}
+.Message h4{
+  height: 10px;
+}
+.Message h6{
+  height: 10px;
+}
+
+.Message{
+  margin-left: 50px;
+  width: 400px;
+  height: 200px;
+}
+#profilePic{
+  margin-top: 40px;
+  margin-left: 70px;
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: #D8FFEF;
+}
+#Picture{
+  margin-top: 5px;
+  height: 60px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #F9ACC0;
+}
+#Picture2{
+  margin-top: 5px;
+  height: 60px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #8E9ADA;
+}
+#profilePic2{
+  margin-top: 40px;
+  margin-left: 70px;
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  background-color:#F9ACC0;
+}
+#profilePic3{
+  margin-top: 40px;
+  margin-left: 70px;
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  background-color:#8E9ADA;
+}
+#profilePic4{
+  margin-top: 40px;
+  margin-left: 70px;
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  background-color:#f8f9ac;
+}
+.entireMessage1{
+  margin-top: 20px;
+  display: flex;
+  height: 70px;
+}
+.entireMessage{
+  margin-top: 70px;
+  display: flex;
+  height: 100px;
+}
+#name{
+  color: #1F1F39;
+  font-weight: 700px;
+  font-size: 20px;
+}
+@media screen and (max-width:700px){
+    aside{
+        width: 30%;
+        height: 130%;
+        background: #911DED;
+        padding-block: 1rem;
+    }
+    aside a .time{
+      background: #EFE0FF;
+      border-radius: 10px;
+      margin-inline: 1rem;
+      padding: 1rem;
+      height: 80px;
+      width: 300px;
+  }
+    aside .course .topic.red{
+      background: #FFE7EE;
+      margin-inline-start: 1rem;
+      height: 200px;
+      width: 170px;
+  }
+    .greet img{
+        width: 55px;
+        height: 70px;
+    }
+    .greet .hi{
+        color: #ffffff;
+        margin-inline-start: 2rem;
+    }
+    .meet img{
+        margin-left: -15px;
+        width: 270px;
+        height: 120px;
+        border-radius: 10px;
+        background-color: #911DED;
+    }
+      #hm{
+        margin-left: 10px;
+        font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      color: #000000;
+      }
+      nav{
+        padding: 10px;
+        display: flex;
+        width: 100%;
+      }
+      nav a{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+      text-decoration: none;
+      margin-left: 15px;
+      color: #444343;;
+      margin-top: 10px;
+      }
+      #forNav{
+        font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+        font-size: 16px;
+        color: #1F1F39;
+      }
+      .secondHeading{
+        font-size: 22px;
+        margin-left: 50px;
+       color:  #1F1F39;
+       font-weight: 500;
+    }
+    #message{
+        margin-left: 15px;
+    }
+    #lineUnder{
+      margin-top: 0px;
+      margin-left: 170px;
+      height: 2px;
+      width: 80px;
+      background-color: #911DED;
+    }
+    aside .course .topic.red{
+      background: #FFE7EE;
+      margin-inline-start: 0.5rem;
+
+  }
+  
+  aside .course .topic.blue{
+      margin-inline: 0.5rem;
+      background: #BAD6FF;
+  }
+  #lineUnder{
+    margin-top: 0px;
+    margin-left: 36px;
+    height: 2px;
+    width: 50px;
+    background-color: #911DED;
+  }
+  .learnedTodayLine{
+    display: flex;
+  }
+  #whitePart{
+    margin-top: 3px;
+    height: 4px;
+    width: 50px;
+    background-color:#F4F3FD ;
+  }
+  #timeout{
+    margin-top: 3px;
+    height: 4px;
+    width: 150px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FF5106 101.2%);
+  }
+}
+@media screen and (max-width:1200px){
+  aside{
+      width: 330px;
+      height: 130%;
+      background: #911DED;
+      padding-block: 1rem;
+  }
+  .greet img{
+      width: 65px;
+      height: 80px;
+  }
+  .greet .hi{
+      color: #ffffff;
+      margin-inline-start: 3rem;
+  }
+  .meet img{
+      margin-left: -10px;
+      width: 270px;
+      height: 120px;
+      border-radius: 10px;
+      background-color: #911DED;
+  }
+    #hm{
+      margin-left: 50px;
+      font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000000;
+    }
+    nav{
+      padding: 10px;
+      display: flex;
+      width: 100%;
+    }
+    nav a{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #444343;;
+    margin-top: 10px;
+    }
+    #forNav{
+      font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+      font-size: 25px;
+      color: #1F1F39;
+    }
+    .secondHeading{
+      font-size: 22px;
+      margin-left: 50px;
+     color:  #1F1F39;
+     font-weight: 500;
+  }
+  #message{
+      margin-left: 15px;
+  }
+  aside .course .topic.red{
+    background: #FFE7EE;
+    margin-inline-start: 0.5rem;
+    height: 190px;
+    width: 150px;
+}
+
+aside .course .topic.blue{
+    margin-inline: 0.5rem;
+    background: #BAD6FF;
+    height: 190px;
+    width: 150px;
+  }
+#lineUnder{
+  margin-top: 0px;
+  margin-left: 35px;
+  height: 2px;
+  width: 50px;
+  background-color: #911DED;
+}
+.learnedTodayLine{
+  display: flex;
+}
+#timeout{
+  margin-top: 3px;
+  height: 4px;
+  width: 150px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FF5106 101.2%);
+}
+#whiteParte{
+  margin-top: 3px;
+  height: 4px;
+  width: 50px;
+  background-color:#F4F3FD ;
+}
+#productLine{
+  margin-top: 3px;
+  width: 50px;
+  height: 4px;
+  background: linear-gradient(270deg, #EC7B9C 50%, rgba(236, 123, 156, 0.502) 95.7%);
+}
+}
