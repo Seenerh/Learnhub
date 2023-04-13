@@ -1,0 +1,349 @@
+body{
+  display: flex;
+
+
+}
+#entireBody{
+  display: flex;
+}
+form{
+  margin-left: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+#heading{
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  left: 35%;
+  top: 8.12%;
+  bottom: 85.59%; 
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  
+  color: #444343;
+}
+#enterpayment{
+  position: absolute;
+  left: 25%;
+  top: 20.5%;
+  bottom: 73.21%;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #444343;
+  
+
+}
+#emailad {
+  position: absolute;
+left: 25%;
+top: 35.39%;
+bottom: 58.32%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #706D6D;
+
+}
+#email{
+  height: 20px;
+  width: 270px;
+  position: absolute;
+left: 25%;
+top: 40.54%;
+bottom: 53.21%;
+
+background: #FFFFFF;
+border: 0.7px solid #000000;
+border-radius: 4px;
+}
+#cardet{
+  position: absolute;
+left: 25%;
+top: 51.19%;
+bottom: 42.52%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #706D6D;
+
+}
+
+#cardetails{
+  position: absolute;
+  width: 270px;
+  height: 20px;
+  left: 25%;
+
+  top: 55.19%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+  background: #FFFFFF;
+  border: 0.7px solid #000000;
+  border-radius: 4px;
+  
+}
+#expiry{
+  position: absolute;
+  left: 25%;
+  top: 68.17%;
+  bottom: 25.54%;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  
+  color: #706D6D;
+}
+#date{
+  position: absolute;
+left: 25%;
+top: 73.33%;
+bottom: 22.08%;
+
+background: #FFFFFF;
+border: 0.7px solid #000000;
+border-radius: 4px;
+}
+#vertical-line{
+  width: 1px;
+  height: 500px;
+  background-color: #000000;
+}
+div{
+  font-family: 'Inter', sans-serif;
+}
+#sub{
+  position: absolute;
+ 
+  left: 57%;
+top: 33.39%;
+bottom: 58.32%;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+#currency{
+  position: absolute;
+ 
+  left: 75%;
+top: 33.39%;
+bottom: 58.32%;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+#price{
+  display: flex;
+}
+#plat{
+  position: absolute;
+  left: 57%;
+  top: 41.19%;
+  bottom: 58.32%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #000000;
+   
+}
+#currency1{
+  position: absolute;
+ 
+  left: 75%;
+top: 41.19%;
+bottom: 58.32%;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+#horizontal-line{
+  margin-left: 213%;
+  margin-top: 380px;
+  height: 1px;
+  width: 315px;
+  background-color:  #444343;
+}
+#vertical-height{
+  width: 1px;
+  height: 320px;
+  background-color: #444343;
+  margin-left:700% ;
+  margin-top:240px ;
+}
+#tot{
+  position: absolute;
+  left: 57%;
+  top: 55.19%;
+  bottom: 58.32%;
+  margin-top: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #000000;
+}
+#currency2{
+  position: absolute;
+ margin-top: 50px;
+  left: 75%;
+top: 55.19%;
+bottom: 58.32%;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+button{
+  font-family: 'Inter';
+  position: absolute;
+  left: 45%;
+   margin-top: 580px;
+   height: 40px;
+  color:  #FFFFFF;
+  font-size: 12px;
+  font-weight: 600;
+  background: #911DED;
+  border-radius: 10px;
+  border: none;
+  width: 215px;
+
+}
+button:hover{
+  cursor: pointer;
+  background-color: #7a33b4;
+}
+#cvv{
+    position: absolute;
+    left: 40%;
+    top:  73.33%;
+    width: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    background: #FFFFFF;
+    border: 0.7px solid #000000;
+    border-radius: 4px;
+}
+#cvvlabel{
+  position: absolute;
+  left: 40%;
+  top: 68.17%;
+  font-family: 'Poppins';
+  color: #706D6D;
+  font-weight: 400;
+ 
+
+}
+@media screen and ( max-width:900px) {
+  #heading{
+    font-size: 18px;
+    left: 150px;
+  }
+  #enterpayment{
+    font-size: 15px;
+    left: 25px;
+  }
+  #emailad{
+    font-size: 15px;
+    left: 25px;
+  }
+  #email{
+    font-size: 15px;
+    left: 25px;
+    width: 170px;
+  }
+  #cardetails{
+    font-size: 15px;
+    left: 25px;
+    width: 170px;
+  }
+  #cardet{
+    font-size: 15px;
+    left: 25px;
+  }
+  #expiry{
+    font-size: 15px;
+    left: 25px;
+  }
+  #date{
+    font-size: 15px;
+    left: 25px;
+    width: 100px;
+  }
+  #cvvlabel{
+    font-size: 15px;
+    left: 180px;
+  }
+  #cvv{
+    font-size: 15px;
+    left: 160px;
+    width: 60px;
+  }
+  #horizontal-line{
+    margin-left: 35px;
+  }
+  #vertical-height{
+    margin-left: 250px;
+  }
+  #sub{
+    left: 300px;
+  }
+  #plat{
+    left: 300px;
+  }
+  #tot{
+    left: 300px;
+  }
+  button{
+    left: 150px;
+  }
+  }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./styles/pay.css" />
+    <title>Make your Payment</title>
+  </head>
+  <body>
+    <div id="entireBody">
+      <div id="forCenter">
+      <form>
+        <h1 id="heading">Register for your Course Now!</h1>
+        <h2 id="enterpayment">Enter your payment details</h2>
+        <label id="emailad" for="email">Enter email adress</label>
+        <input type="email" id="email" />
+        <label for="cardetails" id="cardet"> Card number</label>
+        <input
+          type="text"
+          id="cardetails"
+          placeholder="    xxxx      xxxx      xxxx"
+        />
+        <label for="date" id="expiry">Expiry date</label>
+        <input placeholder="" id="date"type="date"  />
+        <label for="cvv" id="cvvlabel"> cvv </label>
+        <input type="text" inputmode="numeric" id="cvv" />
+      </form>
+      <div id="vertical-height"></div>
+    </div>
+      <div>
+        <div class="price">
+          <p id="sub">Subtotal</p>
+          <p id="currency"> ₦25,000</p>
+        </div>
+        <div class="price">
+          <p id="plat">Platform fee</p>
+          <p id="currency1"> ₦30,000</p>
+          <div id="horizontal-line"></div>
+        </div>
+        <div class="price">
+          <p id="tot">Total fee</p>
+          <p id="currency2">₦55,000</p>
+        </div>
+      </div>
+    </div>
+    <button>Make payment </button>
+  </body>
+</html>
