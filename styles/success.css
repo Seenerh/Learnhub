@@ -1,0 +1,80 @@
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+p,
+ul {
+    margin: 0;
+}
+
+/* Base Styles */
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 98vw;
+    overflow: hidden;
+}
+
+/* Utility Styles */
+.container {
+    width: 40%;
+    height: 60%;
+    margin-inline: auto;
+    margin-block: auto;
+    max-width: 1700px;
+}
+
+/* Main Styles */
+
+main.container{
+    padding-block: 2rem;
+    margin-block-start: 8rem;
+    background: #CFCFCF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img{
+    width: 110px;
+    height: 110px;
+    margin-block-end: 2rem;
+}
+
+.container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #000000;
+}
+
+.container p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #616164;
+    text-align: center;
+}
+
+.container a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+    background: #911DED;
+    border-radius: 78px;
+    padding: 1rem 1.4rem;
+}
+
+.container a span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}

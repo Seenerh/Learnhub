@@ -8,19 +8,19 @@ body{
 }
 form{
   margin-left: 100px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins, sans-serif', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
 }
 #heading{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins, sans-serif', sans-serif;
   position: absolute;
   left: 35%;
   top: 8.12%;
   bottom: 85.59%; 
   
-  font-family: 'Poppins';
+  font-family: 'Poppins, sans-serif';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -34,7 +34,7 @@ form{
   top: 20.5%;
   bottom: 73.21%;
   
-  font-family: 'Poppins';
+  font-family: 'Poppins, sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -50,7 +50,7 @@ left: 25%;
 top: 35.39%;
 bottom: 58.32%;
 
-font-family: 'Poppins';
+font-family: 'Poppins, sans-serif';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -76,7 +76,7 @@ left: 25%;
 top: 51.19%;
 bottom: 42.52%;
 
-font-family: 'Poppins';
+font-family: 'Poppins, sans-serif';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -93,7 +93,7 @@ color: #706D6D;
   left: 25%;
 
   top: 55.19%;
-  font-family: 'Poppins';
+  font-family: 'Poppins, sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -110,7 +110,7 @@ color: #706D6D;
   top: 68.17%;
   bottom: 25.54%;
   
-  font-family: 'Poppins';
+  font-family: 'Poppins, sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -144,7 +144,7 @@ top: 33.39%;
 bottom: 58.32%;
 
 
-font-family: 'Inter';
+font-family: 'Inter, sans-serif';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -160,7 +160,7 @@ top: 33.39%;
 bottom: 58.32%;
 
 
-font-family: 'Inter';
+font-family: 'Inter, sans-serif';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -175,7 +175,7 @@ line-height: 22px;
   top: 41.19%;
   bottom: 58.32%;
   
-  font-family: 'Inter';
+  font-family: 'Inter, sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -192,7 +192,7 @@ top: 41.19%;
 bottom: 58.32%;
 
 
-font-family: 'Inter';
+font-family: 'Inter, sans-serif';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -218,7 +218,7 @@ line-height: 22px;
   top: 55.19%;
   bottom: 58.32%;
   margin-top: 50px;
-  font-family: 'Inter';
+  font-family: 'Inter, sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -234,26 +234,30 @@ top: 55.19%;
 bottom: 58.32%;
 
 
-font-family: 'Inter';
+font-family: 'Inter, sans-serif';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
 }
 button{
-  font-family: 'Inter';
   position: absolute;
   left: 45%;
    margin-top: 580px;
    height: 40px;
   color:  #FFFFFF;
-  font-size: 12px;
-  font-weight: 600;
   background: #911DED;
   border-radius: 10px;
   border: none;
   width: 215px;
 
+}
+button a{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 600;
 }
 button:hover{
   cursor: pointer;
@@ -264,7 +268,7 @@ button:hover{
     left: 40%;
     top:  73.33%;
     width: 100px;
-    font-family: 'Poppins';
+    font-family: 'Poppins, sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -277,7 +281,7 @@ button:hover{
   position: absolute;
   left: 40%;
   top: 68.17%;
-  font-family: 'Poppins';
+  font-family: 'Poppins, sans-serif';
   color: #706D6D;
   font-weight: 400;
  
