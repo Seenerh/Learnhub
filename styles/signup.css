@@ -88,27 +88,9 @@ body {
     margin-inline-end: 5rem;
 }
 
-.forms .google{
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #CFCFCF;
-    border: 2px solid #868091;
-    border-radius: 7px;
-    margin-block-end: 2rem;
-}
-
-.forms .google a img{
-    width: 31px;
-    height: 31px;
-}
-
-.forms .google p{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    color: #000000;
+.forms a img{
+    width: 500px;
+    height: 60px;
 }
 
 .forms p{
