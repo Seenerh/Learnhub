@@ -16,7 +16,7 @@ ul {
 body {
     font-family: 'Inter', sans-serif;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     background-color: #ffffff;
 }
 

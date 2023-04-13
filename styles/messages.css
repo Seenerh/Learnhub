@@ -702,3 +702,14 @@ aside .course .topic.blue{
   background: linear-gradient(270deg, #EC7B9C 50%, rgba(236, 123, 156, 0.502) 95.7%);
 }
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1370px) {
+  aside{
+      height: 135%;
+  }
+  article{
+      height: 135%;
+  }
+}

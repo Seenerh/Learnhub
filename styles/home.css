@@ -396,7 +396,7 @@ article .content{
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 1490px) {
+@media screen and (min-width: 1370px) {
     aside{
         height: 135%;
     }
