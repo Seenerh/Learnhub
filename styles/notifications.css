@@ -52,7 +52,7 @@ body {
   width: 100vw;
 }
  #forNav{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 700;
   font-size: 35px;
@@ -73,7 +73,7 @@ font-weight: 700;
 }
 #hm{
   margin-left: 25%;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
@@ -124,7 +124,7 @@ nav{
   width: 100%;
 }
 nav a{
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -432,7 +432,7 @@ span.span p{
     }
       #hm{
         margin-left: 50px;
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 18px;
@@ -444,7 +444,7 @@ span.span p{
         width: 100%;
       }
       nav a{
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 15px;
@@ -454,7 +454,7 @@ span.span p{
       margin-top: 10px;
       }
       #forNav{
-        font-family: 'Poppins';
+        font-family: 'Poppins', sans-serif;
       font-style: normal;
       font-weight: 700;
         font-size: 16px;
@@ -546,7 +546,7 @@ span.span p{
       width: 100%;
     }
     nav a{
-      font-family: 'Inter';
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 17px;
@@ -556,7 +556,7 @@ span.span p{
     margin-top: 10px;
     }
     #forNav{
-      font-family: 'Poppins';
+      font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
       font-size: 25px;
